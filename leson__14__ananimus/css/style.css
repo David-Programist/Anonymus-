@@ -1,0 +1,151 @@
+@import "/css/reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    padding-top: 40px;
+    background-color: #f9f9f9;
+}
+
+.section__conteiner {
+    margin: 0 auto;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__1 {
+    border-radius: 20px;
+    background-color: #ffff;
+    width: 1040px;
+    padding: 40px;
+    position: relative;
+}
+
+.section__blue__left span {
+    color: #5D71DD;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.section__blue__left {
+    margin-bottom: 30px;
+    padding: 8px 16px;
+    background-color: #F7F8FD;
+    border-radius: 8px;
+}
+
+.section__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__bottom h3 {
+    font-weight: 450;
+    font-size: 24px;
+}
+
+.section__bottom p {
+    color: #2F222266;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.08px;
+    margin-top: 20px;
+    max-width: 880px;
+}
+
+.section__cursor {
+    position: absolute;
+    right: 100px;
+    bottom: -20px;
+}
+
+.section__info h3 {
+    font-weight: 450;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.section__info p {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.section__info span {
+    font-weight: 400;
+    font-size: 18px;
+    color: #E5E4E4;
+}
+
+.section__info {
+    border-bottom: 1px solid #2F22221A;
+    padding: 10px 0;
+}
+
+.section__10 p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.section__10 span {
+    font-weight: 400;
+    font-size: 18px;
+    color: #2F222266;
+    margin-bottom: 10px;
+}
+
+.section__10 {
+    border-bottom: 1px solid #2F22221A;
+    padding: 10px 0;
+}
+
+.section__xxi p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.section__xxi span {
+    font-weight: 400;
+    font-size: 18px;
+    color: #2F222266;
+}
+
+.section__sett {
+    border-radius: 20px;
+    width: 320px;
+    padding: 40px 30px 50px 30px;
+    background-color: #ffff;
+    margin-top: 40px;
+}
+
+.section__sett h3 {
+    font-weight: 450;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.section__input {
+    color: #2F222266;
+    padding: 13px 30px;
+    margin-bottom: 21px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+}
+
+.section__left {
+    max-width: 80%;
+}
+
+.section__right {
+    max-width: 18%;
+}
